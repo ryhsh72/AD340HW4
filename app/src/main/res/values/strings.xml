@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="title">My Profile</string>
+    <string name="intro">My name is James No!</string>
+    <string name="programIntro">I am a budding programmer and now I am starting
+    \nandroid development!</string>
+    <string name="cookingHist">I am an avid fan of the culinary arts, having spent 5
+        \n years in the industry, from a line cook to management.</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="dialog_title">What you like?</string>
+    <string name="cookies_cake">Cookies or Cake?</string>
+    <string name="cookies">COOKIES</string>
+    <string name="cake">CAKE</string>
+</resources>
