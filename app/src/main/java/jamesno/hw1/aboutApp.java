@@ -51,6 +51,13 @@ public class aboutApp extends AppCompatActivity {
                 startActivity(intentCookbook);
                 return true;
 
+            case R.id.songs:
+                // User chose the "Favorite" action, mark the current item
+                // as a favorite...
+                Intent intentSongs = new Intent(this, PostCar.class);
+                startActivity(intentSongs);
+                return true;
+
             default:
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.

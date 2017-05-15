@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -105,17 +104,20 @@ public class JamesProfile extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.cookbook:
-                // User chose the "Settings" item, show the app settings UI...
                 Intent intentCook = new Intent(this, CookbookInfo.class);
                 startActivity(intentCook);
                 return true;
 
             case R.id.about_app:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
                 Intent intentAbout = new Intent(this, aboutApp.class);
                 startActivity(intentAbout);
                 return true;
+
+            case R.id.songs:
+                Intent intentCars = new Intent(this, PostCar.class);
+                startActivity(intentCars);
+                return true;
+
 
             default:
                 // If we got here, the user's action was not recognized.
