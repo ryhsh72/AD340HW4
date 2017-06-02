@@ -82,6 +82,11 @@ public class PostCar extends AppCompatActivity {
                 startActivity(intentCookbook);
                 return true;
 
+            case R.id.map:
+                Intent intentMaps = new Intent(this, MapsActivity.class);
+                startActivity(intentMaps);
+                return true;
+
             default:
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.
