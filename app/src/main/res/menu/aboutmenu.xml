@@ -14,5 +14,15 @@
         android:title="Cookbook Info"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/songs"
+        android:title="Songs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        app:showAsAction="never" />
+
 
 </menu>
