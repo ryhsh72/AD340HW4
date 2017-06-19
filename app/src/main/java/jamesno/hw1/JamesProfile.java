@@ -114,8 +114,8 @@ public class JamesProfile extends AppCompatActivity {
                 return true;
 
             case R.id.songs:
-                Intent intentCars = new Intent(this, PostCar.class);
-                startActivity(intentCars);
+                Intent intentSongs = new Intent(this, PostCar.class);
+                startActivity(intentSongs);
                 return true;
 
             case R.id.map:
